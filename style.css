@@ -5,24 +5,42 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* NAVIGATON BAR**************************************************** */
 .nav{
     background-color: #BE3144;
-    padding: 3%;
-    
+    /* padding: 1.5%; */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    padding-right: 40px;
+    padding: 20px;
 }
+.nav a{
+color: aliceblue;
+margin-left: 20px;
+}
+.nav a:hover{
+    background-color: #45567d;
+}
+/* TITLE*************************************************************** */
 .title{
     background-color: #2C2E30;
-    padding: 20%;
+    padding: 30%;
 }
+/* SECTION**************************************************************** */
 .sect{
     background-color: #45567d;
-    padding: 40%;
+    padding: 50%;
 }
+/* SOCIALS******************************************************************* */
 .socials{
     background-color: #303841;
-    padding: 15%;
-    border-bottom: 8px solid #BE3144;
+    padding: 20%;
+    border-bottom: 5px solid #BE3144;
 }
+/* FOOTER******************************************************************* */
 .footer{
     background-color: #303841;
     padding: 3%;
