@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav{
+    background-color: #BE3144;
+    padding: 3%;
+    
+}
+.title{
+    background-color: #2C2E30;
+    padding: 20%;
+}
+.sect{
+    background-color: #45567d;
+    padding: 40%;
+}
+.socials{
+    background-color: #303841;
+    padding: 15%;
+    border-bottom: 8px solid #BE3144;
+}
+.footer{
+    background-color: #303841;
+    padding: 3%;
+}
