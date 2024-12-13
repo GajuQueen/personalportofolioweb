@@ -112,4 +112,8 @@ padding: 15px;
 .ft{
 display: flex;
 justify-content: space-between;
+justify-content: space-evenly;
+}
+.ft a{
+    color: aliceblue;
 }
