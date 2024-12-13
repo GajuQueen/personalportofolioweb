@@ -107,4 +107,9 @@ padding: 15px;
 .footer{
     background-color: #303841;
     padding: 3%;
+    color: aliceblue;
+}
+.ft{
+display: flex;
+justify-content: space-between;
 }
