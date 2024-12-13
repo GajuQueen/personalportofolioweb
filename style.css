@@ -77,6 +77,18 @@ padding: 15px;
     background-color: #303841;
     padding: 20%;
     border-bottom: 5px solid #BE3144;
+    gap: 50px;
+}
+.socials, .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 /* FOOTER******************************************************************* */
 .footer{
