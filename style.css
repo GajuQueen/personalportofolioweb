@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Karma:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Karma:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,18 +11,18 @@
 /* NAVIGATON BAR**************************************************** */
 .nav{
     background-color: #BE3144;
-    /* padding: 1.5%; */
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: end;
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 40px;
-    padding: 20px;
+    font-family: 'poppins';
 }
 .nav a{
 color: aliceblue;
 margin-left: 20px;
+padding: 15px;
 }
 .nav a:hover{
     background-color: #45567d;
@@ -27,12 +30,47 @@ margin-left: 20px;
 /* TITLE*************************************************************** */
 .title{
     background-color: #2C2E30;
-    padding: 30%;
+    padding: 20%;
+    font-family: 'Raleway';
+    color: aliceblue;
+    font-size: 25px;
+    background: linear-gradient(to left,#161717, #2C2E30);
+}
+.title h1{
+    display: flex;
+    justify-content: center;
+}
+.title p{
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins';
+    color: #BE3144;
+    font-weight: 200;
 }
 /* SECTION**************************************************************** */
 .sect{
     background-color: #45567d;
-    padding: 50%;
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+}
+.sect h2{
+    color: aliceblue;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section div img{
+   width: 300px;
+   margin: 20px;
+   height: 200px;
+}
+.section div p{
+    background-color: #303841;
+    color: aliceblue;
+    
 }
 /* SOCIALS******************************************************************* */
 .socials{
