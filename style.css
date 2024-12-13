@@ -51,9 +51,22 @@ padding: 15px;
 /* SECTION**************************************************************** */
 .sect{
     background-color: #45567d;
-    padding: 50px; 
+    padding: 30px; 
     display: flex;
     flex-direction: column;
+}
+.sect a{
+   margin: 50px 0px;
+   margin-left: 500px;
+   padding: 10px;
+   background-color: #303841;
+   width: 10%;
+   color: aliceblue;
+   display: flex;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 20px;
+   border-radius: 2px;
 }
 .sect h2{
     color: aliceblue;
