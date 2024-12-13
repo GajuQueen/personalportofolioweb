@@ -76,7 +76,7 @@ padding: 15px;
 /* SOCIALS******************************************************************* */
 .socials{
     background-color: #303841;
-    padding: 10%;
+    padding: 13%;
     border-bottom: 5px solid #BE3144;
     gap: 50px;
     color: aliceblue;
@@ -106,5 +106,5 @@ padding: 15px;
 /* FOOTER******************************************************************* */
 .footer{
     background-color: #303841;
-    /* padding: 3%; */
+    padding: 3%;
 }
